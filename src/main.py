@@ -1,8 +1,13 @@
 #coding=utf-8
 
+import kits
+import k_svd
 
+# 打开数据集
 
-# 1. 将数据集划分为训练集和测试集；
+data=kits.openImages("resources")
+
+# 1. 将数据集划分为训练集和测试集；这里前三十个作为训练集 后九个作为测试机
 
 
 # 2. 在训练集上使用K - SVD算法得到字典，字典大小自行设计或参考课程讲义；

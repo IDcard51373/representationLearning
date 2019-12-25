@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="af1edb6f-7df0-465a-83cf-87758f3b0e02" name="Default Changelist" comment="initi">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/omp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB01_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB02_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB03_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB04_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB05_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB06_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB07_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB08_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB09_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB10_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB11_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB12_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB13_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB15_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB16_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB17_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB18_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB19_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB20_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB21_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB22_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB23_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB24_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB25_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB26_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB27_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB28_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB29_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB30_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB31_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB32_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB33_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB34_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB35_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB36_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB37_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB38_P00A+000E+00.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/yaleB39_P00A+000E+00.pgm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/representationLearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/representationLearning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k_svd.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/k_svd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omp.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/kits.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\ldqhi\Documents\pythonProject\representationLearning\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VNAjc9YduPfyha7pkwSw2Hwr55" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ldqhi\Documents\pythonProject\representationLearning\src" />
+      <recent name="D:\ldqhi\Documents\pythonProject\representationLearning\src\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ldqhi\Documents\pythonProject\representationLearning\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="representationLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af1edb6f-7df0-465a-83cf-87758f3b0e02" name="Default Changelist" comment="" />
+      <created>1577083314221</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577083314221</updated>
+      <workItem from="1577083315503" duration="4866000" />
+      <workItem from="1577168255014" duration="2088000" />
+      <workItem from="1577192646490" duration="4167000" />
+      <workItem from="1577200690477" duration="92000" />
+      <workItem from="1577200828368" duration="387000" />
+      <workItem from="1577233137828" duration="5253000" />
+    </task>
+    <task id="LOCAL-00001" summary="initi">
+      <created>1577200259181</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577200259182</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initi" />
+    <option name="LAST_COMMIT_MESSAGE" value="initi" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="383" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577200424973">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="383" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1577200424973" />
+    <state x="637" y="165" key="#kits" timestamp="1577236698241">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="637" y="165" key="#kits/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1577236698241" />
+    <state x="515" y="135" key="CommitChangelistDialog2" timestamp="1577200597174">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="515" y="135" key="CommitChangelistDialog2/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1577200597174" />
+    <state x="1127" y="285" key="FileChooserDialogImpl" timestamp="1577199892672">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="1127" y="285" key="FileChooserDialogImpl/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1577199892672" />
+    <state x="750" y="453" width="382" height="174" key="Github.CreateGistDialog" timestamp="1577200071668">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="750" y="453" width="382" height="174" key="Github.CreateGistDialog/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1577200071668" />
+    <state x="759" y="430" width="339" height="292" key="Github.ShareDialog" timestamp="1577200777946">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="759" y="430" width="339" height="292" key="Github.ShareDialog/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1577200777946" />
+    <state x="684" y="244" key="Github.UntrackedFilesDialog" timestamp="1577200262577">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="684" y="244" key="Github.UntrackedFilesDialog/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1577200262577" />
+    <state width="1815" height="295" key="GridCell.Tab.0.bottom" timestamp="1577237223433">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="295" key="GridCell.Tab.0.bottom/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1577237223433" />
+    <state width="1815" height="295" key="GridCell.Tab.0.center" timestamp="1577237223433">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="295" key="GridCell.Tab.0.center/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1577237223433" />
+    <state width="1815" height="295" key="GridCell.Tab.0.left" timestamp="1577237223433">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="295" key="GridCell.Tab.0.left/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1577237223433" />
+    <state width="1815" height="295" key="GridCell.Tab.0.right" timestamp="1577237223433">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="295" key="GridCell.Tab.0.right/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1577237223433" />
+    <state x="547" y="172" width="998" height="710" key="SettingsEditor" timestamp="1577200716783">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="547" y="172" width="998" height="710" key="SettingsEditor/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1577200716783" />
+    <state x="609" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1577233189643">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="609" y="364" key="com.intellij.ide.util.TipDialog/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1577233189643" />
+    <state x="609" y="364" key="com.intellij.ide.util.TipDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1577192810320" />
+    <state x="721" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577200422004">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="721" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1577200422004" />
+    <state x="708" y="167" width="1476" height="744" key="dock-window-1" timestamp="1577236296264">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="708" y="167" width="1476" height="744" key="dock-window-1/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1577236296264" />
+    <state x="592" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1577236591305">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="592" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1577236591305" />
+    <state x="654" y="235" key="search.everywhere.popup/62.0.1858.1080/1920.0.1858.1080@62.0.1858.1080" timestamp="1577086876872" />
+    <state x="651" y="451" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1577200360711">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="651" y="451" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1577200360711" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/representationLearning$main.coverage" NAME="main Coverage Results" MODIFIED="1577237223425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+  </component>
+</project>
