@@ -5,7 +5,7 @@ from PIL import Image
 import numpy as np
 import random
 
-
+max_iter_times=40
 """
 打开目录下的图片
 输入：路径
@@ -23,8 +23,8 @@ def openImages(path):
 
 """
 omp算法
-输入 字典D，代表答的y,迭代次数t
-输出 表达x
+输入 字典D(shape=m*k)待表达的y(shape=m*n),迭代次数t
+输出 表达x(shape=k*n)
 """
 def omp(D,y,t):
 
@@ -48,8 +48,67 @@ def omp(D,y,t):
             x_k = np.dot(np.linalg.pinv(a), y)  # 重新计算表达
             r = y - np.dot(a, x_k)  # 得到新的残差
         temp = np.zeros((n_d, 1))
-        tmp[index] = x.reshape((t, 1))
-        tmp = np.array(tmp).reshape(n_d)
-        x[:, i] = tmp
+        temp[index] = x_k
+        x[:, i] = np.array(temp).reshape(n_d)  # 格式要转换一下才能赋值进去
     return x
+
+
+
+"""
+k_svd算法
+输入 Y(一组原始数据，shape=m*n)，S(最后表达的x的零范数)，E(误差)，K(字典条目数量，x的长度)
+输出 字典D（shape=m*K）
+"""
+def k_svd(Y,S,E,K):
+    m=Y.shape[0]
+    n=Y.shape[1]
+    X=np.zeros((K,n))
+
+    #字典初始化
+    D= np.random.random((m,K))
+    #字典、原始数据归一化
+    for i in range(K):
+        norm = np.linalg.norm(D[:, i])
+        mean = np.sum(D[:, i]) / m
+        D[:, i] = (D[:, i] - mean) / norm
+    for i in range(n):
+        norm = np.linalg.norm(Y[:, i])
+        mean = np.sum(Y[:, i]) / m
+        Y[:, i] = (Y[:, i] - mean) / norm
+    # 迭代
+    for j in range(max_iter_times):
+        x =omp(D, Y, S)
+        e = np.linalg.norm(Y - np.dot(D, X))
+        if e < E:
+            break
+        # 逐行调整
+        for i in range(K):
+
+
+
+
+
+#######################################################
+
+
+
+        for j in range(iter_times):
+            # X = linear_model.orthogonal_mp(D, Y, None)
+            X = OMP(D, Y, T)
+            # X = cs_omp(Y,D)
+            e = np.linalg.norm(Y - np.dot(D, X))
+            f.write(str('%s' % e) + '\n')
+            print(str('第%s次迭代，误差为：%s' % (j, e)) + '\n')
+            if e < err:
+                break
+            for k in range(K):
+                index = np.nonzero(X[k, :])[0]
+                if len(index) == 0:
+                    continue
+                D[:, k] = 0
+                R = (Y - np.dot(D, X))[:, index]
+                u, s, v = np.linalg.svd(R, full_matrices=False)
+                D[:, k] = u[:, 0].T
+                X[k, index] = s[0] * v[0, :]
+        return D
 
