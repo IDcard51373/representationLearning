@@ -1,51 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af1edb6f-7df0-465a-83cf-87758f3b0e02" name="Default Changelist" comment="initi">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/omp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB01_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB02_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB03_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB04_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB05_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB06_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB07_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB08_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB09_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB10_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB11_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB12_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB13_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB15_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB16_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB17_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB18_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB19_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB20_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB21_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB22_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB23_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB24_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB25_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB26_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB27_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB28_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB29_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB30_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB31_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB32_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB33_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB34_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB35_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB36_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB37_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB38_P00A+000E+00.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/yaleB39_P00A+000E+00.pgm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/representationLearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/representationLearning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/k_svd.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/k_svd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/omp.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/kits.py" afterDir="false" />
+    <list default="true" id="af1edb6f-7df0-465a-83cf-87758f3b0e02" name="Default Changelist" comment="add open images&#10;optimize the directory tree">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/k_svd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kits.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/kits.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/omp.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +111,10 @@
       <workItem from="1577192646490" duration="4167000" />
       <workItem from="1577200690477" duration="92000" />
       <workItem from="1577200828368" duration="387000" />
-      <workItem from="1577233137828" duration="5253000" />
+      <workItem from="1577233137828" duration="5503000" />
+      <workItem from="1577254808445" duration="1350000" />
+      <workItem from="1577266003579" duration="623000" />
+      <workItem from="1577345337487" duration="6495000" />
     </task>
     <task id="LOCAL-00001" summary="initi">
       <created>1577200259181</created>
@@ -159,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577200259182</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add open images&#10;optimize the directory tree">
+      <created>1577238675620</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577238675620</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,21 +151,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initi" />
-    <option name="LAST_COMMIT_MESSAGE" value="initi" />
+    <MESSAGE value="add open images&#10;optimize the directory tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="add open images&#10;optimize the directory tree" />
   </component>
   <component name="WindowStateProjectService">
     <state x="383" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577200424973">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="383" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1577200424973" />
+    <state x="725" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577345997412">
+      <screen x="71" y="0" width="1849" height="1080" />
+    </state>
+    <state x="725" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/71.0.1849.1080/1920.0.1920.1040@71.0.1849.1080" timestamp="1577345997412" />
     <state x="637" y="165" key="#kits" timestamp="1577236698241">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="637" y="165" key="#kits/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1577236698241" />
-    <state x="515" y="135" key="CommitChangelistDialog2" timestamp="1577200597174">
+    <state x="515" y="135" key="CommitChangelistDialog2" timestamp="1577238737698">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="515" y="135" key="CommitChangelistDialog2/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1577200597174" />
+    <state x="515" y="135" key="CommitChangelistDialog2/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1577238737698" />
     <state x="1127" y="285" key="FileChooserDialogImpl" timestamp="1577199892672">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
@@ -211,31 +187,35 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="684" y="244" key="Github.UntrackedFilesDialog/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1577200262577" />
-    <state width="1815" height="295" key="GridCell.Tab.0.bottom" timestamp="1577237223433">
+    <state width="1815" height="295" key="GridCell.Tab.0.bottom" timestamp="1577238679329">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="295" key="GridCell.Tab.0.bottom/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1577237223433" />
-    <state width="1815" height="295" key="GridCell.Tab.0.center" timestamp="1577237223433">
+    <state width="1815" height="295" key="GridCell.Tab.0.bottom/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1577238679329" />
+    <state width="1815" height="295" key="GridCell.Tab.0.center" timestamp="1577238679329">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="295" key="GridCell.Tab.0.center/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1577237223433" />
-    <state width="1815" height="295" key="GridCell.Tab.0.left" timestamp="1577237223433">
+    <state width="1815" height="295" key="GridCell.Tab.0.center/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1577238679329" />
+    <state width="1815" height="295" key="GridCell.Tab.0.left" timestamp="1577238679329">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="295" key="GridCell.Tab.0.left/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1577237223433" />
-    <state width="1815" height="295" key="GridCell.Tab.0.right" timestamp="1577237223433">
+    <state width="1815" height="295" key="GridCell.Tab.0.left/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1577238679329" />
+    <state width="1815" height="295" key="GridCell.Tab.0.right" timestamp="1577238679329">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="295" key="GridCell.Tab.0.right/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1577237223433" />
+    <state width="1815" height="295" key="GridCell.Tab.0.right/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1577238679329" />
     <state x="547" y="172" width="998" height="710" key="SettingsEditor" timestamp="1577200716783">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="547" y="172" width="998" height="710" key="SettingsEditor/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1577200716783" />
-    <state x="609" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1577233189643">
+    <state x="521" y="273" key="Vcs.Push.Dialog.v2" timestamp="1577238795682">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="609" y="364" key="com.intellij.ide.util.TipDialog/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1577233189643" />
-    <state x="609" y="364" key="com.intellij.ide.util.TipDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1577192810320" />
+    <state x="521" y="273" key="Vcs.Push.Dialog.v2/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1577238795682" />
+    <state x="609" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1577345351360">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="609" y="364" key="com.intellij.ide.util.TipDialog/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1577345351360" />
+    <state x="609" y="364" key="com.intellij.ide.util.TipDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1577266031335" />
     <state x="721" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577200422004">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>

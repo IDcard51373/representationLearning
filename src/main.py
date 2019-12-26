@@ -1,7 +1,7 @@
 #coding=utf-8
 
 import kits
-import k_svd
+
 
 # 打开数据集
 
