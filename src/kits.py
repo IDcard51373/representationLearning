@@ -4,9 +4,12 @@ import os
 from PIL import Image
 import numpy as np
 import random
+import copy
 
 max_iter_times = 40
 
+img_h = 192
+img_w = 168
 
 """
 打开目录下的图片
@@ -32,6 +35,7 @@ omp算法
 
 
 def omp(D, y, t):
+
     n_d = D.shape[1]  # n_d:D的列数，即条目数量
     n_y = y.shape[1]  # n_y：y的个数
     l_dy = D.shape[0]  # l_dy:D的行数，理论上D和y的行数相同
@@ -52,8 +56,14 @@ def omp(D, y, t):
             x_k = np.dot(np.linalg.pinv(a), yi)  # 重新计算表达
             r = yi - np.dot(a, x_k)  # 得到新的残差
         temp = np.zeros((n_d, 1))
-        temp[index,0] = x_k
-        x[:, i] = np.array(temp).reshape(n_d)  # 格式要转换一下才能赋值进去
+        # temp[index, 0] = x_k
+
+        # x[:, i] = np.array(temp).reshape(n_d)
+        # 格式要转换一下才能赋值进去
+        temp[index] = x_k.reshape((t, 1))
+        temp = np.array(temp).reshape(n_d)
+        x[:, i] = temp
+        # print(temp)
     return x
 
 
@@ -82,8 +92,10 @@ def k_svd(Y, S, E, K):
         Y[:, i] = (Y[:, i] - mean) / norm
     # 迭代
     for j in range(max_iter_times):
-        x = omp(D, Y, S)
+        X = omp(D, Y, S)
+        print(X)
         e = np.linalg.norm(Y - np.dot(D, X))
+        print("迭代次数" + str(j)+"误差："+str(e))
         if e < E:
             break
         # 逐行调整
@@ -107,11 +119,30 @@ def k_svd(Y, S, E, K):
 输入 imgs(一组原始测试数据，shape=m*n)，p(像素缺失率)
 输出 imgs_lossed（shape=m*K,像素缺失的测试数据）
 """
-def loss_pixel(imgs,p = 50):
-    num = int(p*0.01*imgs.shape[0])
-    loss = np.random.randint(0, high = imgs.shape[0]-1,size = num)
+
+
+def loss_pixel(p_imgs, p):
+    imgs = copy.deepcopy(p_imgs)
+    num = int(p * 0.01 * imgs.shape[0])
+    loss = np.random.randint(0, high=imgs.shape[0] - 1, size=num)
     for i in range(imgs.shape[1]):
         for j in range(num):
-            imgs[loss[j],i] = 0
+            imgs[loss[j], i] = 0
     return imgs
 
+
+"""
+生成图像
+输入：灰度矩阵
+输出：图像img
+"""
+
+
+def to_img(p_data):
+    data = copy.deepcopy(p_data)
+    if len(data.shape) == 1:
+        data = data.reshape(img_h, img_w)
+    elif data.shape[1] == 1:
+        data = data.reshape(img_h, img_w)
+    img = Image.fromarray(data)
+    return img
