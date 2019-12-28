@@ -11,20 +11,41 @@ max_iter_times = 40
 img_h = 192
 img_w = 168
 
+
 """
-打开目录下的图片
-输入：路径
-输出：数据集data
+img_split,将大图片切割成小块
+输入 img(img_h*img_w)
+输出 patchs(64*504,504列，每列是一个8*8像素块的向量表示)
 """
 
+def img_split(img):
+    patch_r = img.shape[0] // 8
+    patch_c = img.shape[1] // 8
+    dim = patch_r * patch_c
+    patchs = np.zeros((64, dim))
+    for i in range(patch_r):
+        for j in range(patch_c):
+            r = i * 8
+            c = j * 8
+            patch = img[r:r + 8, c:c + 8].reshape(64)
+            patchs[:, i * patch_c + j] = patch
+    return patchs
 
-def openImages(path):
-    data = []
-    os.chdir(path)
-    for i in os.listdir(os.getcwd()):
-        im = Image.open(i)
-        data.append(list(im.getdata()))
-    return data
+"""
+img_integrate,将小块还原成原图
+输入 patchs(64*504,504列，每列是一个8*8像素块的向量表示)
+输出 img(img_h*img_w)
+"""
+def img_integrate(patchs, img_shape):
+    img = np.zeros(img_shape)
+    patch_r = img.shape[0] // 8
+    patch_c = img.shape[1] // 8
+    for i in range(patch_r):
+        for j in range(patch_c):
+            r = i * 8
+            c = j * 8
+            img[r:r + 8, c:c + 8] = patchs[:, i * patch_c + j].reshape(8, 8)
+    return img
 
 
 """
@@ -37,7 +58,11 @@ omp算法
 def omp(D, y, t):
 
     n_d = D.shape[1]  # n_d:D的列数，即条目数量
-    n_y = y.shape[1]  # n_y：y的个数
+    if len(y.shape) > 1:
+        n_y = y.shape[1]
+    else:
+        n_y = 1  # n_y：y的个数
+        y=y.reshape((y.shape[0], 1))
     l_dy = D.shape[0]  # l_dy:D的行数，理论上D和y的行数相同
     x = np.zeros((n_d, n_y))
     for i in range(n_y):
@@ -74,8 +99,11 @@ k_svd算法
 """
 
 
-def k_svd(Y, S, E, K):
-    m = Y.shape[0]
+def k_svd(imgs, S, E, K):
+    # Y=img_split(imgs)
+    Y=imgs
+
+    m = Y.shape[0]  # 切割后一片是8*8
     n = Y.shape[1]
     X = np.zeros((K, n))
 
@@ -93,7 +121,7 @@ def k_svd(Y, S, E, K):
     # 迭代
     for j in range(max_iter_times):
         X = omp(D, Y, S)
-        print(X)
+        # print(X)
         e = np.linalg.norm(Y - np.dot(D, X))
         print("迭代次数" + str(j)+"误差："+str(e))
         if e < E:
@@ -122,13 +150,14 @@ def k_svd(Y, S, E, K):
 
 
 def loss_pixel(p_imgs, p):
-    imgs = copy.deepcopy(p_imgs)
-    num = int(p * 0.01 * imgs.shape[0])
-    loss = np.random.randint(0, high=imgs.shape[0] - 1, size=num)
-    for i in range(imgs.shape[1]):
+    lossed_imgs = copy.deepcopy(p_imgs)
+    num = int(p * 0.01 * img_h*img_w)
+    loss_x = np.random.randint(0, high=img_h - 1, size=num)
+    loss_y = np.random.randint(0, high=img_w - 1, size=num)
+    for i in range(len(p_imgs)):
         for j in range(num):
-            imgs[loss[j], i] = 0
-    return imgs
+            lossed_imgs[i][loss_x[j],loss_y[j]] = 0
+    return lossed_imgs
 
 
 """
@@ -146,3 +175,8 @@ def to_img(p_data):
         data = data.reshape(img_h, img_w)
     img = Image.fromarray(data)
     return img
+
+
+def psnr(a, b):
+    if (a == b).all(): return 0
+    return 10 * np.log10(a.shape[0] * a.shape[1] / (((a.astype(np.float) - b) ** 2).mean()))
