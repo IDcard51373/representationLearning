@@ -11,6 +11,14 @@ max_iter_times = 40
 img_h = 192
 img_w = 168
 
+"""
+记录实验数据到文件
+"""
+
+def record(r,name):
+    output = open('..\\out\\'+name + '_record.xls', 'w', encoding='gbk')
+    for i in range(len(r)):
+        output.write('\t'+str(r[i]))
 
 """
 img_split,将大图片切割成小块
@@ -100,6 +108,7 @@ k_svd算法
 
 
 def k_svd(imgs, S, E, K):
+    r=[]# 记录
     # Y=img_split(imgs)
     Y=imgs
 
@@ -124,6 +133,7 @@ def k_svd(imgs, S, E, K):
         # print(X)
         e = np.linalg.norm(Y - np.dot(D, X))
         print("迭代次数" + str(j)+"误差："+str(e))
+        r.append(e)
         if e < E:
             break
         # 逐行调整
@@ -139,6 +149,7 @@ def k_svd(imgs, S, E, K):
             # 更新
             D[:, i] = u[:, 0].T
             X[i, index] = s[0] * v[0, :]
+    record(r,'k_svd_error')
     return D
 
 
@@ -180,3 +191,4 @@ def to_img(p_data):
 def psnr(a, b):
     if (a == b).all(): return 0
     return 10 * np.log10(a.shape[0] * a.shape[1] / (((a.astype(np.float) - b) ** 2).mean()))
+
